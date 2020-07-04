@@ -2261,7 +2261,7 @@ CREATE TABLE IF NOT EXISTS `settings` (
 --
 
 INSERT INTO `settings` (`settings_id`, `type`, `description`) VALUES
-(1, 'system_name', 'EduAppGT PRO '),
+(1, 'system_name', 'School Management Software '),
 (2, 'system_title', 'School Management System'),
 (3, 'address', 'Ciudad de Guatemala'),
 (4, 'phone', '00000000'),

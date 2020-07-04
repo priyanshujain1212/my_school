@@ -36,9 +36,8 @@
           <div class="step-content active" id="stepContent1">
             <div class="row">
       <h5 class="form-header">
-       Welcome to EduAppGT PRO Installation Wizard!
+       Welcome to School Management Software Installation Wizard!
       </h5>
-      <h4>Thanks for buying EduAppGT PRO</h4>
       <?php
         session_start();
        if($_SESSION['error'] == '1'):?>
@@ -85,17 +84,6 @@
         </tr>
       </table>
       </div>
-      <legend><span>Verify Purchase</span></legend>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for=""> Username*</label><input class="form-control" placeholder="Codecanyon Username" required="" name="code_username" type="text">
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="">Purchase Code*</label><input class="form-control" placeholder="Purchase Code" name="purchase_code" required="" required type="text">
-                </div>
-              </div>
             </div>
             <div class="form-buttons-w text-right">
               <a class="btn btn-primary step-trigger-btn" href="#stepContent2"> Continue</a>
