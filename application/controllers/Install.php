@@ -63,12 +63,8 @@ class Install extends CI_Controller
       $this->db->update('settings', array('description' => $this->input->post('system_name')));
       $this->db->where('type', 'system_title');
       $this->db->update('settings', array('description' => $this->input->post('system_title')));
-      $this->db->where('type', 'buyer');
-      $this->db->update('settings', array('description' => $this->input->post('code_username')));
       $this->db->where('type', 'language');
       $this->db->update('settings', array('description' => $this->input->post('language')));
-      $this->db->where('type', 'purchase_code');
-      $this->db->update('settings', array('description' => $this->input->post('purchase_code')));
       $this->db->where('type', 'currency');
       $this->db->update('settings', array('description' => $this->input->post('currency')));
       unlink(APPPATH.'controllers/Install.php');

@@ -6,7 +6,7 @@
         }
     </style>
   <head>
-    <title>Welcome to the installation wizard | EduAppGT</title>
+    <title>Welcome to the installation wizard</title>
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -41,7 +41,7 @@
       <?php
         session_start();
        if($_SESSION['error'] == '1'):?>
-        <div class="alert alert-danger">An error occurred during the installation, verify that the credentials of your database and purchase data are correct</div>
+        <div class="alert alert-danger">An error occurred during the installation, verify that the credentials of your database are correct</div>
       <?php endif;?>
       <p>
         We are sure that we will be the tool to help you improve your school's processes. <br> <br> Before starting the installation process, please verify that you fulfill all the following conditions . <b> All are required</b> 
