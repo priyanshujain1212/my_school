@@ -39,6 +39,13 @@
         configOverwrite: {},
         interfaceConfigOverwrite: {
             // filmStripOnly: true
+            TOOLBAR_BUTTONS: [
+                'closedcaptions', 'desktop', 'fullscreen',
+                'fodeviceselection', 'hangup', 'profile', 'chat', 'recording',
+                'livestreaming', 'etherpad', 'sharedvideo', 'settings', 'raisehand',
+                'videoquality', 'filmstrip', 'invite', 'feedback', 'stats', 'shortcuts',
+                'tileview', 'videobackgroundblur', 'download', 'help', 'security'
+            ],
         }
     }
     var api = new JitsiMeetExternalAPI(domain, options);
